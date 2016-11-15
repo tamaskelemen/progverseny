@@ -8,7 +8,7 @@
 			#	  ###   #    #	  #	 #######  ######	 #     
 ############################################################################################			
 			
-			
+include_once 'dbcon.php';			
 			?>
 <html>
 <head>
@@ -27,7 +27,7 @@
 	<div class="menu">		
 		<a class="link" href="index.php">	<div class = 'menu-pont'  >Home </div>	</a>
 		<a class="link" href="index.php?menu=faq">	<div class = 'menu-pont'  >	FAQ	</div>	</a>
-		<a class="link" href="index.php?menu=hamburger">	<div class = 'menu-pont'  >	Hamburgerek	</div></a>
+		<a class="link" href="index.php?menu=users">	<div class = 'menu-pont'  >	users	</div></a>
 		<a class="link" href="index.php?menu=kosar"> 	<div class = 'menu-pont'  >	Kosár	</div></a>
 		<a class="link" href="index.php?menu=contact">	 <div class = 'menu-pont'  >Kapcsolat	</div></a>		
 	</div>
@@ -39,14 +39,14 @@
 				if($_GET['menu'] == 'faq'){
 					include "faq.php";
 				}
-				else if($_GET['menu'] == 'hamburger'){
-					include "hamburger.php";
+				else if($_GET['menu'] == 'users'){
+					include "users.php";
 				}
 				else if($_GET['menu'] == 'kosar'){
 					include "kosar.php";
 				}
 				else if($_GET['menu'] == 'contact'	){
-					include 'contact.php';
+					include 'home.php';
 				}
 			}else{
 				echo "<h1 style= 'text-align: center'>olimpia</h1>
