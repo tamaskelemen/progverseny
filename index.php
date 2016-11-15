@@ -17,7 +17,7 @@ include_once 'dbcon.php';
 	<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
 </head>
 
-<body>
+<body >
 	<!-- banner .... ......................................................................................................................... -->
 	<div class = "banner">
 		<a href= 'index.php'><img class='img' src='banner.jpg'></a>

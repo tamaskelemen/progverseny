@@ -1,4 +1,8 @@
-
+body {
+background="back.jpg";
+font-family: Sans-serif;
+color: white;
+}
 .menu{
 	font-weight: bold;
 	font-family: Sans-serif;
