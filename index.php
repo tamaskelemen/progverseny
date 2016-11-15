@@ -17,7 +17,7 @@ include_once 'dbcon.php';
 	<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
 </head>
 
-<body >
+<body background='back.jpg' style='width: 100%';>
 	<!-- banner .... ......................................................................................................................... -->
 	<div class = "banner">
 		<a href= 'index.php'><img class='img' src='banner.jpg'></a>
@@ -49,10 +49,9 @@ include_once 'dbcon.php';
 					include 'home.php';
 				}
 			}else{
-				echo "<h1 style= 'text-align: center'>olimpia</h1>
-					<h3 style = 'text-align: center'> 10. hely</h3>
+				include "home.php";
 				
-				";
+				
 			}
 		?>		
 	</div>	

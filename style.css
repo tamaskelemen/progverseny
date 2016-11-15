@@ -1,7 +1,5 @@
 body {
-background="back.jpg";
-font-family: Sans-serif;
-color: white;
+background='back.jpg';
 }
 .menu{
 	font-weight: bold;
