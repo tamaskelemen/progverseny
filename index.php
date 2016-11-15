@@ -32,7 +32,31 @@
 		<a class="link" href="index.php?menu=contact">	 <div class = 'menu-pont'  >Kapcsolat	</div></a>		
 	</div>
 	<!-- Menu vege ..........................................................................................................................-->
-	
+	<!--Main div.....................................................................................................................-->
+	<div class="tartalom">
+		<?php 
+			if(isset($_GET['menu'])){
+				if($_GET['menu'] == 'faq'){
+					include "faq.php";
+				}
+				else if($_GET['menu'] == 'hamburger'){
+					include "hamburger.php";
+				}
+				else if($_GET['menu'] == 'kosar'){
+					include "kosar.php";
+				}
+				else if($_GET['menu'] == 'contact'	){
+					include 'contact.php';
+				}
+			}else{
+				echo "<h1 style= 'text-align: center'>olimpia</h1>
+					<h3 style = 'text-align: center'> 10. hely</h3>
+				
+				";
+			}
+		?>		
+	</div>	
+	<!-- Main div vege .....................................................................................................................................-->
 </body>
 
 <html>

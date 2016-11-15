@@ -1,4 +1,6 @@
+<table class='tabla' > 
 <?php 
 
-	echo "itt minden levan írva az olimpiáról. szia mérki szia lesti sziasztok fiúúk";
+	echo "<br>itt minden levan írva az olimpiáról. szia mérki szia lesti sziasztok fiúúk";
 ?>	
+</table>
