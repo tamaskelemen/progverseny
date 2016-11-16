@@ -12,7 +12,7 @@ include_once 'dbcon.php';
 			?>
 <html>
 <head>
-<title>ötödik a tizedik olimpia</title>
+<title>5th floor is the 10th</title>
 	<meta http-equiv="Content-Type" content="text/html; "charset = 'utf-8'>
 	<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
 </head>
@@ -27,8 +27,8 @@ include_once 'dbcon.php';
 	<div class="menu">		
 		<a class="link" href="index.php">	<div class = 'menu-pont'  >Home </div>	</a>
 		<a class="link" href="index.php?menu=faq">	<div class = 'menu-pont'  >	FAQ	</div>	</a>
-		<a class="link" href="index.php?menu=users">	<div class = 'menu-pont'  >	users	</div></a>
-		<a class="link" href="index.php?menu=kosar"> 	<div class = 'menu-pont'  >	Kosár	</div></a>
+		<a class="link" href="index.php?menu=users">	<div class = 'menu-pont'  >	news	</div></a>
+		<a class="link" href="index.php?menu=kosar"> 	<div class = 'menu-pont'  >	bucket	</div></a>
 		<a class="link" href="index.php?menu=contact">	 <div class = 'menu-pont'  >Kapcsolat	</div></a>		
 	</div>
 	<!-- Menu vege ..........................................................................................................................-->
